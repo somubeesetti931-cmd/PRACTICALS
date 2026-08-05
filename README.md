@@ -10,3 +10,5 @@
 
 
   PRATICAL-3
+
+  The Max-Heap Sort algorithm is an efficient comparison-based sorting algorithm that uses a Max Heap data structure to sort elements in ascending order. It first builds a Max Heap from the given array and then repeatedly swaps the root (largest element) with the last element, reducing the heap size each time until the array is completely sorted. Heap Sort provides consistent performance and is suitable for sorting large datasets.
