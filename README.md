@@ -1,17 +1,38 @@
-  PRACTICAL-1
-  
-  The implementation and time analysis of Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort show that different sorting algorithms have different efficiencies. Bubble Sort, Selection Sort, and Insertion Sort are simple to implement but become slow for large datasets because their average and worst-case time complexity is O(n²). Merge Sort and Quick Sort are more efficient for large datasets. Merge Sort guarantees O(n log n) time in all cases but requires extra memory, while Quick Sort has an average time complexity of O(n log n) and is usually the fastest in practice, although its worst case is O(n²). Therefore, Merge Sort and Quick Sort are preferred for handling large amounts of data.
+  # PRACTICAL-1
+
+## Summary
+
+In this practical, different sorting techniques such as **Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort** were implemented and analyzed. Their execution times and time complexities were compared to understand their performance. Bubble Sort, Selection Sort, and Insertion Sort generally take **O(n²)** time, while Merge Sort and Quick Sort are more efficient for larger datasets. Merge Sort has **O(n log n)** time complexity in all cases, whereas Quick Sort provides **O(n log n)** average performance but may take **O(n²)** in the worst case.
+
+## Conclusion
+
+The practical demonstrates that sorting algorithms differ significantly in their performance. Simple algorithms such as Bubble, Selection, and Insertion Sort are suitable for smaller datasets, while Merge Sort and Quick Sort are better choices for larger datasets. The comparison helps in selecting an appropriate sorting technique based on the size and requirements of the data.
 
   
- PRACTICAL-2
+
+  
+# PRACTICAL-2
+
+## Summary
+
+In this practical, **Linear Search and Binary Search** algorithms were implemented and compared based on their performance. Linear Search checks the elements sequentially until the required element is found, giving it a time complexity of **O(n)**. Binary Search repeatedly divides the sorted data into two parts and searches only the required portion, resulting in a time complexity of **O(log n)**. However, Binary Search can only be applied when the data is sorted.
+
+## Conclusion
+
+Both searching techniques successfully locate the required element in a dataset. Linear Search is simple and can be used with sorted or unsorted data, while Binary Search provides much faster searching for large sorted datasets. Therefore, Binary Search is preferred when the data is sorted and performance is important, whereas Linear Search is useful for smaller or unsorted collections.
 
  
- The implementation and time analysis of Linear Search and Binary Search show that Binary Search is much more efficient than Linear Search for large datasets. Linear Search checks each element one by one and works on both sorted and unsorted arrays, but its time complexity is O(n). Binary Search repeatedly divides the search space into two halves, making it much faster with a time complexity of O(log n), but it requires the data to be sorted. Therefore, for small or unsorted data, Linear Search is suitable, while for large sorted data, Binary Search is the better and more efficient choice.
 
+# PRACTICAL-3
 
-  PRACTICAL-3
+## Summary
 
-  The Max-Heap Sort algorithm is an efficient comparison-based sorting algorithm that uses a Max Heap data structure to sort elements in ascending order. It first builds a Max Heap from the given array and then repeatedly swaps the root (largest element) with the last element, reducing the heap size each time until the array is completely sorted. Heap Sort provides consistent performance and is suitable for sorting large datasets.
+In this practical, the **Max-Heap Sort** algorithm was implemented using the Max Heap data structure. The algorithm first converts the given elements into a Max Heap, where the largest element is placed at the root. The largest element is then moved to its correct position by swapping it with the last element, followed by readjusting the heap. This process continues until all elements are sorted in ascending order. Heap Sort provides **O(n log n)** time complexity.
+
+## Conclusion
+
+The Max-Heap Sort algorithm successfully sorts the given elements using the properties of a Max Heap. It provides consistent **O(n log n)** performance and does not require additional arrays for sorting. Therefore, Heap Sort is an efficient and reliable sorting technique, especially when consistent performance and memory usage are important.
+
 
 
   # PRACTICAL-4
