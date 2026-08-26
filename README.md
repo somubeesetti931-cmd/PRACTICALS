@@ -46,6 +46,18 @@ In this practical, the factorial of a number was calculated using two different 
 Both approaches successfully produce the factorial of the given number. The time complexity of both iterative and recursive methods is **O(n)**. However, their space complexities are different. The iterative method requires **O(1)** extra space, while the recursive method requires **O(n)** space due to the recursive function calls stored in the call stack. Hence, iteration is more efficient in terms of memory, while recursion offers a straightforward and logical way to implement factorial calculation.
 
 
+# PRACTICAL-5
+
+## Summary
+
+In this practical, the **0/1 Knapsack Problem** was implemented using the **Dynamic Programming** technique. The objective is to select items with given weights and values while ensuring that the total weight does not exceed the capacity of the knapsack. A Dynamic Programming table is used to store the solutions of smaller subproblems and reuse them to find the optimal solution. This approach avoids repeated calculations and efficiently determines the maximum possible value. The time complexity of the algorithm is **O(n × W)** and the space complexity is **O(n × W)**, where `n` is the number of items and `W` is the knapsack capacity.
+
+## Conclusion
+
+The Dynamic Programming approach successfully solves the 0/1 Knapsack Problem by finding the combination of items that gives the **maximum value within the given capacity**. Storing intermediate results reduces repeated computations and makes the algorithm more efficient than a simple recursive approach. Therefore, Dynamic Programming is an effective technique for solving optimization problems such as the Knapsack Problem.
+
+
+
 # PRACTICAL-6
 
 ## Summary
