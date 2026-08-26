@@ -57,3 +57,15 @@ This practical demonstrates the **Coin Change problem** using the Dynamic Progra
 The Dynamic Programming technique provides an effective way to solve the minimum coin change problem. By saving the results of smaller subproblems, it avoids unnecessary repeated calculations and improves the overall efficiency of the program. The method successfully determines the minimum number of coins required for the target amount and performs significantly better than a basic recursive solution for larger inputs.
 
 
+# PRACTICAL-5
+
+## Summary
+
+In this practical, the **0/1 Knapsack Problem** was implemented using the **Dynamic Programming** technique. The objective is to select items with given weights and values while ensuring that the total weight does not exceed the capacity of the knapsack. A Dynamic Programming table is used to store the solutions of smaller subproblems and reuse them to find the optimal solution. This approach avoids repeated calculations and efficiently determines the maximum possible value. The time complexity of the algorithm is **O(n × W)** and the space complexity is **O(n × W)**, where `n` is the number of items and `W` is the knapsack capacity.
+
+## Conclusion
+
+The Dynamic Programming approach successfully solves the 0/1 Knapsack Problem by finding the combination of items that gives the **maximum value within the given capacity**. Storing intermediate results reduces repeated computations and makes the algorithm more efficient than a simple recursive approach. Therefore, Dynamic Programming is an effective technique for solving optimization problems such as the Knapsack Problem.
+
+
+
