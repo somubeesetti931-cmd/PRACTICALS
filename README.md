@@ -46,6 +46,18 @@ In this practical, the factorial of a number was calculated using two different 
 Both approaches successfully produce the factorial of the given number. The time complexity of both iterative and recursive methods is **O(n)**. However, their space complexities are different. The iterative method requires **O(1)** extra space, while the recursive method requires **O(n)** space due to the recursive function calls stored in the call stack. Hence, iteration is more efficient in terms of memory, while recursion offers a straightforward and logical way to implement factorial calculation.
 
 
+# PRACTICAL-6
+
+## Summary
+
+In this practical, the **Matrix Chain Multiplication** problem was implemented using the **Dynamic Programming** technique. The objective is to determine the most efficient order for multiplying a sequence of matrices so that the total number of scalar multiplications is minimized. Since matrix multiplication is associative, the matrices can be grouped in different ways, but each order may require a different number of operations. Dynamic Programming stores the minimum multiplication cost for smaller matrix chains and uses these results to determine the optimal order for the complete chain. The time complexity of the algorithm is **O(n³)** and the space complexity is **O(n²)**.
+
+## Conclusion
+
+The Dynamic Programming approach successfully determines the **optimal order of matrix multiplication** while minimizing the total number of scalar operations. By storing the results of previously solved subproblems, unnecessary repeated calculations are avoided. Therefore, Matrix Chain Multiplication using Dynamic Programming provides an efficient solution for finding the minimum multiplication cost, especially when dealing with a large number of matrices.
+
+
+
 # PRACTICAL-7
 
 ## Summary
